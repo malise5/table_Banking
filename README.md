@@ -1,5 +1,5 @@
 
-# Loan Management System
+# Table Banking System
 
 ## Overview
 The Loan Management System is designed to allow users to register, contribute monthly, and apply for loans. The system calculates loan eligibility and applies interest based on the loan type. Loans can either have compound or simple interest, and interest starts accruing immediately upon issuance. This system ensures users cannot skip monthly contributions if they wish to qualify for a loan.
