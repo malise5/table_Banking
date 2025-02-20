@@ -1,6 +1,5 @@
 Sure! Here’s the `README.md` file you can use for your project:
 
-```markdown
 # Loan Management System
 
 ## Overview
