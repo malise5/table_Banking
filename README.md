@@ -1,4 +1,3 @@
-Sure! Here’s the `README.md` file you can use for your project:
 
 # Loan Management System
 
@@ -152,9 +151,3 @@ Use **Postman** to send requests to the endpoints described above.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-
----
-
-This `README.md` file covers everything from setup instructions, to API documentation, to how developers can get started with the project. Modify as necessary to fit the exact specifics of your project, especially the database configuration.
