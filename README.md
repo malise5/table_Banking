@@ -2,16 +2,17 @@
 # Table Banking System
 
 ## Overview
-The Loan Management System is designed to allow users to register, contribute monthly, and apply for loans. The system calculates loan eligibility and applies interest based on the loan type. Loans can either have compound or simple interest, and interest starts accruing immediately upon issuance. This system ensures users cannot skip monthly contributions if they wish to qualify for a loan.
+The Table Banking System is a financial management platform designed to enable users to make regular contributions, accumulate interest on their savings, and access loans once they meet specific eligibility criteria
 
 ## Features
 
 ### Functional Features
 - **User Registration:** Users can register and create an account to interact with the system.
 - **Monthly Contributions:** Users are required to contribute every month. Skipping a month will make them ineligible for a loan.
-- **Loan Application:** Users can apply for a loan, which will accrue interest from the day it is issued.
-- **Interest Calculation:** Loan interest can be calculated using either compound or simple interest. The system defines which type is used.
+- **Loan Application:** After making consecutive monthly contributions, users become eligible to apply for loans. Loans can be issued with either compound or simple interest, depending on the loan type and terms
+- **Earn Interest::** Contributions accumulate interest, either simple or compound, based on the user's preferences and the system's rules. This helps users grow their savings effortlessly.
 - **Loan Eligibility:** The system automatically determines the eligibility for a loan based on the user's monthly contributions and other criteria.
+- **Loan Repayment:** Loans come with a repayment schedule, and users can repay them in installments, with interest starting immediately upon loan issuance.
 
 ### Technical Features
 - **Spring Boot 3.x** for building the backend of the application.
@@ -25,7 +26,7 @@ The Loan Management System is designed to allow users to register, contribute mo
 ## System Requirements
 - **Java 17+** (Ensure Java 17 or higher is installed)
 - **PostgreSQL** (Make sure a PostgreSQL instance is running and accessible)
-- **Maven** or **Gradle** (for building and managing dependencies)
+- **Maven**  (for building and managing dependencies)
 
 ## Setup Instructions
 
@@ -33,7 +34,7 @@ The Loan Management System is designed to allow users to register, contribute mo
 Clone this repository to your local machine:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/malise5/table_Banking.git
 ```
 
 ### 2. Configure the Database
@@ -79,7 +80,11 @@ Use **Postman** to test the exposed APIs. Import the provided Postman collection
   {
     "username": "john_doe",
     "email": "john.doe@example.com",
-    "password": "securepassword123"
+    "password": "securepassword123",
+    "full_name": "John Doe",
+    "phone_number": "+1234567890",
+    "address": "123 Main Street, Hometown, ABC 12345",
+    "date_of_birth": "1990-05-15"
   }
   ```
 - **Response:**
